@@ -7,21 +7,21 @@ div.container {
     border: 1px ;
 }
 header, footer {
-  	padding: 7em;
+  	padding: .5em;
     color: white;
-    background-color: #FFAF9E;
+    background-color: #FFFDCC  ;
     clear: right;
     text-align: center;
 }
 nav {
     float: center;
-    max-width: 160px;
+    max-width: 100px;
     margin: 0;
     padding: 1em;
 }
 nav ul {
     list-style-type: none;
-    padding: 0;
+    padding: 1;
 }
 </style>
 </head>
@@ -32,17 +32,19 @@ nav ul {
 <div class="container">
 
 <header>
-   <h1>Stephanie Yepez</h1>
+
+   <h4>  <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Gallery</a></li></h4>
 </header>
   
-<nav>
-  <ul>
-    <li><a href="#">Home</a></li>
-    <li><a href="#">About</a></li>
-    <li><a href="#">Gallery</a></li>
-  </ul>
-</nav>
+<div class="image">
 
+      <img src="images/3754004820_91a5c238a0.jpg" alt="" />
+      
+      <h2>Stephanie Yepez:<br />A rising Mechanical/Aerospace Engineer</h2>
+
+</div>
   <img src="http://40.media.tumblr.com/0fbc9e711e055990359b0c88758e972b/tumblr_nkarkgu2Ty1qd6dl3o2_r1_1280.jpg" alt="ocean" style="width:640px;height:360px;">
 
 
@@ -54,6 +56,14 @@ nav ul {
 <h2>About</h2>
 <p>My Story.</p>
 <hr>
+<body>
+
+<h2>Stephanie</h2>
+
+<p>Stephanie Yepez</p>
+
+<p id="demo" style="display:none">Hello there!</p>
+
+<button type="button" onclick="document.getElementById('demo').style.display='block'">Click Me!</button>
 
 </body>
-</html>
